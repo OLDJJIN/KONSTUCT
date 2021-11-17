@@ -5,13 +5,13 @@
 }
 
 .body {
-  margin: 0px;
-  padding: 0px;
+  /* margin: 0px;
+  padding: 0px; */
   height: 100%;
   /* max-width: 1440px; */
 }
 .container {
-  max-width: 941px;
+  max-width: 940px;
   padding: 0 15px;
   margin: auto;
   border: 2px solid red;
@@ -131,13 +131,12 @@
 .ph3 span {
   color: #00a4e5;
 }
-.OUR_CAP {
+.our_cap {
   margin-top: 131px;
   display: flex;
-  margin-bottom: 80px;
   justify-content: space-between;
 }
-.OUR_CAP h2::before {
+.our_cap h2::before {
   content: "";
   width: 50px;
   height: 2px;
@@ -146,14 +145,14 @@
 
   bottom: -5px;
 }
-.OUR_CAP h2 {
+.our_cap h2 {
   text-align: center;
   font-size: 18px;
   color: #48555b;
   position: relative;
   margin-right: 131px;
 }
-.OUR_CAP p {
+.our_cap p {
   color: #48555b;
   font-family: "Open Sans";
   font-style: normal;
@@ -162,7 +161,7 @@
   margin-right: 34.6px;
   width: 405px;
 }
-.OUR_CAP button {
+.our_cap button {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: bold;
@@ -171,4 +170,61 @@
   color: white;
   border: none;
   padding: 11px 29px;
+}
+.block3 {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+  height: 330px;
+}
+.block1-1 h2 {
+  margin-top: 25px;
+  color: #48555b;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.block1-1 p {
+  margin-top: 12px;
+  color: #48555b;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.block2-2 h2 {
+  margin-top: 25px;
+  color: #48555b;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.block3-3 h2 {
+  margin-top: 25px;
+  color: #48555b;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+.block2-2 p {
+  margin-top: 12px;
+  color: #48555b;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+}
+.block3-3 p {
+  margin-top: 12px;
+  color: #48555b;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
 }
